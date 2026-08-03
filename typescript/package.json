@@ -1,0 +1,19 @@
+{
+  "name": "@lexmount-template/open-page-and-verify-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/run.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
+
